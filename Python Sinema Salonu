@@ -15,7 +15,6 @@ elif secim == 'Doctor Strange in the Multiverse of Madnesse':
 else:
   print("Lütfen Vizyonda Olan Bir Film Seçiniz")
  
-#öğrenci indirimi
 if ogrenci =='E' or ogrenci =='e':
   ucret=ucret - ucret *35 / 100 
  
