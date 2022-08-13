@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 while True:
     username=input("Username: ") 
     password=input("Password: ")
