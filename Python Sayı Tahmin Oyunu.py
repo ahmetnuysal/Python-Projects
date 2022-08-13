@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 TahminSayisi= 0
 from random import randint
 HedefSayi = randint(1, 100)
