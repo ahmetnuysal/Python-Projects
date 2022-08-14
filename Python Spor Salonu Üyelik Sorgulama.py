@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 üyesayisi=int(input("Yeni Üye Sayısını Giriniz: "))
 isim=[]
 tarih=[]
@@ -25,11 +19,4 @@ for i in isim:
         break
     else:
         print("Üye Bulunamadı")
-  
-
-
-# In[ ]:
-
-
-
-
+ 
