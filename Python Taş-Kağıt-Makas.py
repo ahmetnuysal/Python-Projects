@@ -28,13 +28,13 @@ while True:
         print(f"Bilgisayar Kağıt yaptı,Bilgisayar Kazandı! \n {OyuncuKazandı}-{BilgisayarKazandı}")
     elif oyuncu=="taş" or "Taş" and bilgisayar=="makas" or "Makas":
         OyuncuKazandı+=1
-        print(f"Bilgisayar Kağıt yaptı,Siz Kazandınız! \n {OyuncuKazandı}-{BilgisayarKazandı} ")
+        print(f"Bilgisayar Makas yaptı,Siz Kazandınız! \n {OyuncuKazandı}-{BilgisayarKazandı} ")
     elif oyuncu=="kağıt" or "Kağıt" and bilgisayar=="makas" or "Makas":
         BilgisayarKazandı+=1
         print(f"Bilgisayar Makas yaptı,Bilgisayar Kazandı! \n {OyuncuKazandı}-{BilgisayarKazandı} ")
     elif oyuncu=="kağıt" or "Kağıt" and bilgisayar=="taş" or "Taş":
         OyuncuKazandı+=1
-        print(f"Bilgisayar Kağıt yaptı, Siz Kazandınız! \n {OyuncuKazandı}-{BilgisayarKazandı} ")
+        print(f"Bilgisayar Taş yaptı, Siz Kazandınız! \n {OyuncuKazandı}-{BilgisayarKazandı} ")
     elif oyuncu=="makas" or "Makas" and bilgisayar=="taş" or "Taş":
         BilgisayarKazandı+=1
         print(f"Bilgisayar Taş yaptı,Bilgisayar Kazandı\n {OyuncuKazandı}-{BilgisayarKazandı} ")
