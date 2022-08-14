@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import random
 seçenekler=["taş","Taş","kağıt","Kağıt","makas","Makas"]
 
@@ -54,10 +48,3 @@ if  OyuncuKazandı>BilgisayarKazandı:
     print(f"Tebrikler! {OyuncuKazandı}-{BilgisayarKazandı} Kazandınız")
 else:
     print(f"Kaybettiniz {OyuncuKazandı}-{BilgisayarKazandı}")
-
-
-# In[ ]:
-
-
-
-
