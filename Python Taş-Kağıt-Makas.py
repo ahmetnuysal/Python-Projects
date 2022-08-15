@@ -1,5 +1,5 @@
 import random
-seçenekler=["taş","Taş","kağıt","Kağıt","makas","Makas"]
+seçenekler=["Taş","Kağıt","Makas"]
 
 while True:
     try:
@@ -23,22 +23,22 @@ while True:
     
     if oyuncu==bilgisayar:
         print("Berabere")
-    elif oyuncu=="taş" or "Taş" and bilgisayar=="kağıt" or "Kağıt":
+    elif oyuncu=="Taş" and bilgisayar=="Kağıt":
         BilgisayarKazandı+=1
         print(f"Bilgisayar Kağıt yaptı,Bilgisayar Kazandı! \n {OyuncuKazandı}-{BilgisayarKazandı}")
-    elif oyuncu=="taş" or "Taş" and bilgisayar=="makas" or "Makas":
+    elif oyuncu=="Taş" and bilgisayar=="Makas":
         OyuncuKazandı+=1
         print(f"Bilgisayar Makas yaptı,Siz Kazandınız! \n {OyuncuKazandı}-{BilgisayarKazandı} ")
-    elif oyuncu=="kağıt" or "Kağıt" and bilgisayar=="makas" or "Makas":
+    elif oyuncu=="Kağıt" and bilgisayar=="Makas":
         BilgisayarKazandı+=1
         print(f"Bilgisayar Makas yaptı,Bilgisayar Kazandı! \n {OyuncuKazandı}-{BilgisayarKazandı} ")
-    elif oyuncu=="kağıt" or "Kağıt" and bilgisayar=="taş" or "Taş":
+    elif oyuncu=="Kağıt" and bilgisayar=="Taş":
         OyuncuKazandı+=1
         print(f"Bilgisayar Taş yaptı, Siz Kazandınız! \n {OyuncuKazandı}-{BilgisayarKazandı} ")
-    elif oyuncu=="makas" or "Makas" and bilgisayar=="taş" or "Taş":
+    elif oyuncu=="Makas" and bilgisayar=="Taş":
         BilgisayarKazandı+=1
         print(f"Bilgisayar Taş yaptı,Bilgisayar Kazandı\n {OyuncuKazandı}-{BilgisayarKazandı} ")
-    elif oyuncu=="makas" or "Makas" and bilgisayar=="kağıt" or "Kağıt":
+    elif oyuncu=="Makas" and bilgisayar=="Kağıt":
         OyuncuKazandı+=1
         print(f"Bilgisayar Kağıt yaptı, Siz Kazandınız! \n {OyuncuKazandı}-{BilgisayarKazandı} ")
     if OyuncuKazandı==kazanan or BilgisayarKazandı==kazanan:
