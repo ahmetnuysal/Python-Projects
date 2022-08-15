@@ -15,6 +15,6 @@ while True:
         print("Daha Düşük Bir Sayı Girin.")
         continue
     else:
-        print(f" Tebrikler! Doğru Bildiniz, Rastele seçilen sayı {rand}")
-        print(f"Tahmin sayınız {sayac}")
+        print(f" Tebrikler! Doğru Bildiniz, Rastele seçilen sayı {HedefSayi}")
+        print(f"Tahmin sayınız {TahminSayisi}")
 
