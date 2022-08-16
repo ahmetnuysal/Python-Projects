@@ -1,3 +1,4 @@
+```python
 secim = input("Filmi Seçiniz: ")
 ogrenci = input("Öğrenci misiniz(E/H): ")
 koltuk = input("Koltuk Numaranızı Giriniz: ")
@@ -19,3 +20,4 @@ if ogrenci =='E' or ogrenci =='e':
   ucret=ucret - ucret *35 / 100 
  
 print("Ödemeniz gereken ücret :{ucret}")
+```
