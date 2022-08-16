@@ -1,3 +1,4 @@
+```python
 def hesaplama(a,b,islem):
     if islem not in "+-*/ sqr sqrroot":
         return "Lütfen geçerli bir işlem seçiniz"
@@ -22,3 +23,4 @@ while True:
     except:
         print("Lütfen doğru sayı giriniz")
         break
+```
