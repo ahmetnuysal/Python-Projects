@@ -1,3 +1,4 @@
+```python
 ahmetkg="50kg ve 187"
 mertkg="55kg ve 170"
 x=input("isiminizi giriniz: ")
@@ -12,4 +13,4 @@ elif x=="mert":
     kilo("mert")
 else:
     print("Kullanıcı Bulunamadı")
-    
+    ```
